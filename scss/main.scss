@@ -1,0 +1,62 @@
+@import './resets';
+@import './variables';
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    .main-sec {
+        background-image: url('/images/bg-mobile-light.jpg');
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        background-repeat: no-repeat;
+
+        .head-sec {
+            display: flex;
+            padding: 50px 30px;
+            align-items: center;
+            justify-content: space-between;
+
+            .head-txt {
+                letter-spacing: 0.4em;
+                color: $vl-gray;
+            }
+
+            .darkmode-toogle {
+                font-size: 1.7em;
+                color: $vl-gray;
+            }
+        }
+
+        .main-content {
+            .input-div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 10px;
+                // width: 100%;
+                
+                .check {
+                    // position: absolute;
+                    left: 10%;
+                    // border: 2px solid black;
+                    border-radius: 50px;
+                    width: 70px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .create-todo {
+                    border: none;
+                    border-radius: 15px;
+                    padding: 20px 70px;
+                }
+            }
+        }
+    }
+}

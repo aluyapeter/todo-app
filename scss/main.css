@@ -22,12 +22,13 @@ body .main-sec {
   background-image: url("/images/bg-mobile-light.jpg");
   background-size: cover;
   height: 200px;
-  width: 100%;
   background-repeat: no-repeat;
 }
 body .main-sec .head-sec {
   display: flex;
-  padding: 50px 30px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px 0px;
   align-items: center;
   justify-content: space-between;
 }
@@ -45,15 +46,17 @@ body .main-sec .main-content .input-div {
   justify-content: center;
   margin: 0 10px;
 }
-body .main-sec .main-content .input-div .check {
-  left: 10%;
+body .main-sec .main-content .input-div .check-mark {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  position: absolute;
   border-radius: 50px;
-  width: 70px;
-  height: 30px;
-  border-radius: 50%;
+  left: 60px;
 }
 body .main-sec .main-content .input-div .create-todo {
   border: none;
-  border-radius: 15px;
-  padding: 20px 70px;
+  border-radius: 10px;
+  padding: 15px 50px;
+  width: 80%;
 }/*# sourceMappingURL=main.css.map */

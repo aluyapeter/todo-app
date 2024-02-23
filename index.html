@@ -31,8 +31,13 @@
     </div>
     <div class="main-content">
       <div class="input-div">
-        <input type="checkbox" class="check" id="">
-        <input type="text" class="create-todo" placeholder="create a todo...">
+        <div class="check-mark" onclick="addTask()">
+        </div>
+        <input type="text" class="create-todo" id="task-input" placeholder="create a todo...">
+      </div>
+      
+      <div id="uncompleted-task">
+        <h2>uncompleted task</h2>
       </div>
     </div>
   </div>

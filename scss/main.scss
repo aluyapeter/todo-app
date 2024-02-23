@@ -13,12 +13,13 @@ body {
         background-image: url('/images/bg-mobile-light.jpg');
         background-size: cover;
         height: 200px;
-        width: 100%;
         background-repeat: no-repeat;
 
         .head-sec {
             display: flex;
-            padding: 50px 30px;
+            width: 75%;
+            margin: 0 auto;
+            padding: 50px 0px;
             align-items: center;
             justify-content: space-between;
 
@@ -40,21 +41,21 @@ body {
                 justify-content: center;
                 margin: 0 10px;
                 // width: 100%;
-                
-                .check {
-                    // position: absolute;
-                    left: 10%;
-                    // border: 2px solid black;
+
+                .check-mark {
+                    width: 25px;
+                    height: 25px;
+                    border: 1px solid black;
+                    position: absolute;
                     border-radius: 50px;
-                    width: 70px;
-                    height: 30px;
-                    border-radius: 50%;
+                    left: 60px;
                 }
 
                 .create-todo {
                     border: none;
-                    border-radius: 15px;
-                    padding: 20px 70px;
+                    border-radius: 10px;
+                    padding: 15px 50px;
+                    width: 80%;
                 }
             }
         }
